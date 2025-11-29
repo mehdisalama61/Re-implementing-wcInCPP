@@ -75,10 +75,7 @@ int main(int argc, char *argv[]){
             cout<<"Error. Couldn't open the file specified."<<endl;
             return 1;
         }
-        cout<<nbytes(file)<<endl;
-        cout<<nlines(file)<<endl;
-        cout<<nwords(file)<<endl;
-        cout<<nchars(file)<<endl;
+        cout<<nbytes(file)<<" "<<nlines(file)<<" "<<nwords(file)<<" "<<nchars(file)<<endl;
         file.close();
         return 0;
     }
